@@ -1,0 +1,8 @@
+
+* Enter your regular zephyr setup:
+
+D:\>cd zephyrproject
+D:\zephyrproject> .venv\Scripts\activate.bat
+(zephyrproject-venv) D:\zephyrproject>cd zephyr
+(zephyrproject-venv) D:\zephyrproject\zephyr>west build -p -b bbc_microbit <PATH>\Zephyr-Micro-bit-Game
+(zephyrproject-venv) D:\zephyrproject\zephyr>west flash
